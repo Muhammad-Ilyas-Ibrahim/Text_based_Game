@@ -37,4 +37,4 @@ try:
 except Exception as error:
 	print(color.lightcyan, " You Entered Wrong Input")
 	print(color.bold, color.lightcyan, "Please !!! Enter An Integer Value Not String....")
-for_exet = input("  Press Enter To Exit: ")
+for_exit = input("  Press Enter To Exit: ")
