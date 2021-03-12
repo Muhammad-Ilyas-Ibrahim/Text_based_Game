@@ -33,7 +33,7 @@ try:
 	if (attempt>15):
 		print(color.cyan, "           Game over")
 		print(color.cyan, " You Have Run Out Of Attempts")
-		print("  The Stored number Was", [stored_number])
+		print("  The Number Was", [stored_number])
 except Exception as error:
 	print(color.lightcyan, " You Entered Wrong Input")
 	print(color.bold, color.lightcyan, "Please !!! Enter An Integer Value Not String....")
