@@ -1,6 +1,6 @@
 import os
 import random
-stored_number = random.randint(0, 1000)
+stored_number = random.randint(0, 100)
 os.system("")
 class color():
 	underline='\033[04m'
